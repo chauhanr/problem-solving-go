@@ -49,7 +49,7 @@ grained high throughput scenarios like the distributed database.
 ### Raft Server States 
 The raft consensus module for each node in the cluster has the following state machine. 
 
-![consensus-states](images/consensus-states.png) 
+![consensus-states](images/consensus-state.png) 
 
 **Term** - just like regular elections the term is the length of time that a node is a leader. A new
 election triggers a new term. The algorithm of leader election ensures that each term has a single
